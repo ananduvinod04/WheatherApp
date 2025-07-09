@@ -39,6 +39,9 @@
     font-size: larger;
     font-weight: bolder;
 }
+.searcher input:focus{
+    outline: none;
+}
 .searcher button{
     border: none;
     width: 20%;
