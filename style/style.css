@@ -1,0 +1,79 @@
+.header{
+ text-align: center;
+ color: white;
+}
+.customContainer{
+    margin-top: 20px;
+  
+    background: linear-gradient(to bottom, rgb(0, 162, 255), rgb(64, 178, 245), rgb(147, 207, 247));
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.cardCustom{
+    overflow: hidden;
+   
+}
+
+.searcher{
+    display: flex;
+    height: 40px;
+    width: 300px;
+   margin:10px 10px;
+    background-color: rgb(39, 38, 38);
+    overflow: hidden;
+    border-radius: 50px;
+   
+
+}
+
+.searcher input{
+    border: none;
+    width: 80%;
+    background-color: transparent;
+    padding-left: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+.searcher button{
+    border: none;
+    width: 20%;
+}
+.graphicContainer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.849);
+
+}
+.graphicContainer img{
+    width: 120px;
+    height: 120px;
+    align-self: center;
+   
+}
+.primaryInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resultContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(90, 89, 89);
+}
+.humidityContainer{
+    display: flex;
+}
+.windFlow{
+    display: flex;
+}
